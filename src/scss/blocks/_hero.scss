@@ -1,0 +1,83 @@
+.hero {
+  padding: 77px 0 72px;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__slogan {
+    position: relative;
+    max-width: 640px;
+    width: 100%;
+    padding-bottom: 46px;
+    text-align: right;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: $font-accent;
+    font-size: 54px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  &__text {
+    max-width: 527px;
+    margin-bottom: 53px;
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+  &__btn {
+    display: inline-block;
+    padding: 86px 17px;
+    margin-right: 40px;
+    border-radius: 100%;
+    border: 2px solid $text-color;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    animation: rotation 10s linear 0s infinite running normal;
+
+    &:hover {
+      background-color: $text-color;
+      color: $accent;
+    }
+  }
+
+  &__image {
+    position: absolute;
+
+    &--black {
+      z-index: 4;
+      right: 210px;
+      top: -23px;
+    }
+
+    &--gold {
+      z-index: 3;
+      right: -5px;
+      top: 105px;
+    }
+
+    &--muted {
+      z-index: 2;
+      right: 228px;
+      bottom: 82px;
+    }
+
+    &--blue {
+      right: 38px;
+      bottom: -24px;
+    }
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

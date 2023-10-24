@@ -1,0 +1,19 @@
+.choice {
+  padding: 75px 0 60px;
+
+  &__box {
+    position: relative;
+  }
+
+  &__title {
+    max-width: 1024px;
+    margin: 0 auto 27px auto;
+  }
+
+  &__text {
+    max-width: 810px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  background-color: $head-bg;
+  padding: 25px 0 25px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+
+  &__row {
+    @extend %flex-base;
+  }
+
+  &__logo {
+    margin-right: 38px;
+  }
+
+  &__btn {
+    padding: 0 29px;
+    font-size: 13px;
+    letter-spacing: 0.655px;
+    text-transform: uppercase;
+    border-radius: 7.281px;
+    border: 1.456px solid $text-color;
+    text-align: center;
+    background-color: $bg-btn;
+    line-height: 3.5;
+    box-shadow: 0px 0px 29.125px 0px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      color: $accent;;
+      background-color: $text-color;
+    }
+  }
+}

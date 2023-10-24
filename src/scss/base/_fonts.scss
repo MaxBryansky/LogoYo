@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "EurostileRound";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/EurostileRoundExtended-Medium.woff2") format("woff2"),
+    url("../fonts/EurostileRoundExtended-Medium-Medium.woff") format("woff") format("embedded-opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HalvarBreit";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HalvarBreit-Md.woff2") format("woff2"),
+    url("../fonts/HalvarBreit-Md.woff") format("woff") format("embedded-opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HalvarBreit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HalvarBreit-Rg.woff2") format("woff2"),
+    url("../fonts/HalvarBreit-Rg.woff") format("woff") format("embedded-opentype");
+  font-display: swap;
+}

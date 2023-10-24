@@ -1,0 +1,55 @@
+.cells {
+  padding: 60px 0 77px;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 26px 40px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-accent;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+
+    border-radius: 20px;
+    background-color: $bg-btn;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  &__span-short {
+    max-width: 338px;
+  }
+
+  &__grid--week {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+
+  &__grid--mus {
+    grid-column: 3 / -1;
+    grid-row: 1 / -1;
+  }
+
+  &__grid--ny {
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+  }
+
+  &__span-sh {
+    max-width: 280px;
+  }
+}

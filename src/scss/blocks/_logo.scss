@@ -1,0 +1,10 @@
+.logo {
+  &__link {
+    display: inline-block;
+    transition: opacity 0.3s ease, outline 0.3s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-main;
+  font-style: normal;
+  // text-transform: capitalize;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: $page-bg;
+  color: $text-color;
+}
+
+.container {
+  padding: $container-padding;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+a {
+  &:focus {
+    box-shadow: 0 0 0 3px rgba(35, 82, 222, 0.5);
+  }
+}
+
+.title {
+  font-family: $font-accent;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  }
+
+  // p {
+  //   font-size: inherit;
+  // }
